@@ -1,11 +1,14 @@
 -- 모든 행 모든 컬럼 조회
 -- 1. EMPLOYEE테이블에서 모든 정보를 조회하세요
+select * FROM employee;
 
 -- 원하는 컬럼 조회
--- 2. EMPLOYEE 테이블의 사번, 이름을 조회하세요
+-- 2. EMPLOYEE 테이블의 사번, 이름을 조회하세요'
+select EMP_ID,EMP_NAME FROM employee;
 
 -- 원하는 행 조회
 -- 3. EMPLOYEE 테이블에서 부서코드가 D9인 사원을 조회하세요
+
 
 -- 원하는 행과 컬럼 조회
 -- 4. EMPLOYEE 테이블에서 급여가 300만원 이상인 직원의 사번, 이름, 부서코드, 급여를 조회하세요
